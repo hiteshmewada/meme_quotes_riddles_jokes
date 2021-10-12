@@ -16,16 +16,16 @@ img{
 p{
     color: darkred;
     font-size: large;
-    font-weight: 700;
+    font-weight: 800;
 }
 .attribute{
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 25px;
+    bottom: 25px;
     font-size: 1 rem;
     background-color: red;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 12px;
+    border-radius: 7px;
     color: aqua;
     box-shadow: 1px 2px 5px 1px rgba(255, 255, 255, 0.2);
 }
@@ -46,9 +46,9 @@ a:hover{
 .sidebar{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    padding-left:  30px;
-    padding-right: 30px;
+    width: 40%;
+    padding-left:  40px;
+    padding-right: 40px;
     border-left: 1px dotted #BFA38A;
     height: 85vh;
 }
@@ -65,7 +65,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
     text-decoration: underline;
 }
 .reveal{
